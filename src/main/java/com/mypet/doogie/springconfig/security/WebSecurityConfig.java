@@ -41,7 +41,7 @@ public class WebSecurityConfig {
 
     private static final String[] AUTH_WHITELIST = new String[] {
             "/defaults/health",
-            "/api/v1/kakao/login",
+            "/api/auth/**",
             "/swagger-ui/**",
             "/swagger-resources/**", "/swagger-ui/**", "/v3/api-docs/swagger-config",
             "/v3/api-docs/**",
